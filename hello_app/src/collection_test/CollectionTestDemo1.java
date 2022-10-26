@@ -20,11 +20,13 @@ public class CollectionTestDemo1 {
         list1.add(18);
         list1.add(20);
         list1.add(30);
+        Collections.addAll(list1, 2,3,4,5,2,3,2,4);
         set1.add(18.8);
         set1.add(18.8);
         set1.add(18.8);
         set1.add(26.9);
         set1.add(36.67);
+        Collections.addAll(set1, 6.6,4.4,5.5,6.6,5.5,5.5,2.3,4.5);
         System.out.println(list1);
         System.out.println(set1);
 

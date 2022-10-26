@@ -1,12 +1,9 @@
 package collection_test.list_test;
 
-import java.util.ArrayList;
 import java.util.Collections;
 import java.util.LinkedList;
-import java.util.List;
-import java.util.function.Consumer;
 
-public class TestDemo1 {
+public class LinkedList_Demo1 {
     public static void main(String[] args) {
 ////        ArrayList<Integer> list1 = new ArrayList<>();
 //        List<Integer> list1 = new ArrayList<>();
@@ -29,10 +26,16 @@ public class TestDemo1 {
 
         LinkedList<Integer> list2 = new LinkedList<>();
         list2.add(5);
-        list2.add(5);
         list2.add(55);
         list2.add(555);
-        list2.add(5555);
+        Collections.addAll(list2, 11,111,22);
+        System.out.println(list2);
+        list2.get(5);
+        list2.add(3,33);
+        System.out.println(list2);
+        list2.set(5, 56789);
+        System.out.println(list2);
+        list2.remove(5);
         System.out.println(list2);
         list2.push(100);
         list2.push(1000);
