@@ -6,6 +6,7 @@ import java.util.Comparator;
 public class Arrays_Test {
     public static void main(String[] args) {
 //        Integer[] ages = new Integer[]{12, 45, 38, 25, 74, 6, 22};
+//        Integer[] ages = {12, 45, 38, 25, 74, 6, 22};
         Integer[] ages = {12, 45, 38, 25, 74, 6, 22};
         // 原函数
 //        Arrays.sort(ages, new Comparator<Integer>() {
