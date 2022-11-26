@@ -4,7 +4,7 @@ package com.ittest;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-public class TestDemo2 {
+public class ThreadDemo2 {
     public static void main(String[] args) {
 //        Thread t = new Thread(new Runnable() {
 //            @Override

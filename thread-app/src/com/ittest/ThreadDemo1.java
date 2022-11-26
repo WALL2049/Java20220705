@@ -1,6 +1,6 @@
 package com.ittest;
 
-public class TestDemo1 {
+public class ThreadDemo1 {
     public static void main(String[] args) {
         Thread t = new MyThread();
         t.start();
