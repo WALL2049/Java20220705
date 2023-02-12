@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class ArrayTestDemo5 {
     public static void main(String[] args) {
-        int numlist[] = new int[5];
+        int[] numlist = new int[5];
 //        numlist[0] = 10;
 //        numlist[1] = 20;
 //        numlist[2] = 30;

@@ -2,7 +2,7 @@ package array_test;
 
 public class ArrayTestDemo3 {
     public static void main(String[] args) {
-        int grades[] = {16,26,36,6,100};
+        int[] grades = {16,26,36,6,100};
         int sum = 0;
         for (int i = 0; i < grades.length; i++){
             sum += grades[i];

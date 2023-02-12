@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class ArrayTestDemo4 {
     public static void main(String[] args) {
         Random ran = new Random();
-        int randomnlist[] = new int[5];
+        int[] randomnlist = new int[5];
         for (int i = 0; i<5; i++){
             randomnlist[i] = ran.nextInt(20) + 1;
         }

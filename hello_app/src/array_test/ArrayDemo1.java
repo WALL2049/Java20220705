@@ -1,8 +1,10 @@
 package array_test;
 
+/**
+ *         静态初始化数组
+ */
 public class ArrayDemo1 {
     public static void main(String[] args) {
-//        静态初始化数组
 //        double[] scores = new double[]{60.6, 88.5, 99.7, 67.8, 85.8};
 //        double[] scores = {60.6, 88.5, 99.7, 67.8, 85.8};
 
